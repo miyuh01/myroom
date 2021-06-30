@@ -446,6 +446,7 @@ left:-10px;
 }
 
 .about-contents{
+  display:block;
   margin-top:120px;
 }
 .about-contents-text{
