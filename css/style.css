@@ -498,4 +498,8 @@ textarea{
 .about-contents-text{
  font-size:14px;
 }
+.about-contents-image{
+width:30vw;
+height:20vh;
+}
 }
