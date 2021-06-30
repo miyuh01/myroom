@@ -446,7 +446,6 @@ left:-10px;
 }
 
 .about-contents{
-  display:block;
   margin-top:120px;
 }
 .about-contents-text{
@@ -492,5 +491,11 @@ input{
 textarea{
   width:300px;
     height:200px;
+}
+}
+
+@media screen and(max-width:480px){
+.about-contents-text{
+ font-size:14px;
 }
 }
