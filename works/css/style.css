@@ -170,6 +170,12 @@ left:-10px;
 
 /*768px~*/
 @media screen and (max-width:768px){
+  
+/*header-logo*/
+.header-logo img{
+    width:100%;
+  }  
+  
 /*header-navi*/
 #header-nav-open{
   display:inline-block;
