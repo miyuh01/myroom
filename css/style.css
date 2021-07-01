@@ -441,15 +441,12 @@ left:-10px;
   margin-bottom:50px;
 }
 /*about*/
-#about{
-  height:300px;
-}
 
 .about-contents{
   margin-top:120px;
 }
 .about-contents-text{
-  margin:0 30px 0 0 ;
+  margin:0 20px 0 0 ;
   line-height:1.8;
 }
 .about-contents-image{
