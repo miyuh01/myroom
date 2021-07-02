@@ -1,4 +1,4 @@
-/*$(function(){
+$(function(){
 let pageTop = $('#page-top');
 
 pageTop.hide();
@@ -16,9 +16,9 @@ pageTop.click(function(){
   },500);
   return false;
 });
-});*/
+});
 
-jQuery(function(){
+/*jQuery(function(){
   var pagetop = $('#pagetop');
   pagetop.hide();
   $(window).scroll(function(){
@@ -34,3 +34,4 @@ jQuery(function(){
     },800);
   });
 });
+*/
