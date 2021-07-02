@@ -302,13 +302,11 @@ button:hover{
 /*footer*/
 
 .footer_group{
-  height:300px;
+  height:200px;
   background-color:#ffd324;
 }
 .footer-navi{
-position:relative;
-top:100px;
-left:-10px;
+padding-top:50px;
 }
 .footer-navi-contents{
   display:flex;
@@ -323,7 +321,6 @@ left:-10px;
   color:#333333;
 }
 .footer-end{
-  padding-top:150px;
   font-weight:bold;
   text-align:center;
 }
