@@ -8,7 +8,7 @@ $(window).scroll(function(){
   }else{
     pageTop.fadeOut(300);
   }
-});*/
+});
 
 pageTop.click(function(){
   $('body,html').animate({
@@ -16,7 +16,8 @@ pageTop.click(function(){
   },500);
   return false;
 });
-});
+});*/
+
 jQuery(function(){
   var pagetop = $('#pagetop');
   pagetop.hide();
