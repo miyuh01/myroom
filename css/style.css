@@ -520,7 +520,15 @@ textarea{
   .works-contents-list{
     width:100%;
   }
-
+    
+  /*skills*/
+.skills-contents-list{
+  display:block;
+}
+.skills-contents-list-header-group{
+  margin:right:0;
+  text-align:center;
+}
 
   .skills-images{
     width:20%;
