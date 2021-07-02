@@ -135,6 +135,7 @@ dd{
   position:fixed;
   top:650px;
   right:50px;
+  z-index:9999;
 }
 /*footer*/
 
