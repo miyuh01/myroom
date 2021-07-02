@@ -108,8 +108,10 @@ height:50px;
 .header-contents-list{
   margin-left:50px;
   margin-right:50px;
-  width:202px;
-  height:250px;
+  width:90vw;
+  height:25vh;
+  max-width:202px;
+  max-height:250px;
   text-align: center;
 }
 .header-contents-list>a{
@@ -118,7 +120,7 @@ display:block;
 
 .open{
   width:350px;
-  height:250px;
+ height:250px;
 }
 
 /*room２番目下ボーダー*/
@@ -265,6 +267,7 @@ input{
 textarea{
   width:500px;
   height:300px;
+  text-align: left;
 }
 .tac{
   text-align:center;
@@ -466,12 +469,13 @@ left:-10px;
 
 /*works*/
 .works-contents{
-  width:500px;
+  width:100%;
+  height:auto;
 }
-.works-contents-list,
-.works-contents-list-image {
-  width:248px;
-  height:138px;
+.works-contents-list{
+  width:50%;
+  height:auto;
+  margin-bottom:10px;
 }
 .works-contents-image{
   width:150px;
@@ -480,19 +484,18 @@ left:-10px;
 
 /*skills*/
 .skills-contents{
-  width:500px;
+  width:100%;
   height: auto;
 }
 
 .skills-contents-list
 {
+  height:auto;
+  margin-bottom:10px;
 }
 
 .skill-images{
-  width:80px;
-  height:100px;
-  top:-33px;
-  left:600px;
+
 }
 /*contact*/
 .contact-form-box{
