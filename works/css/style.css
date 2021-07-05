@@ -278,8 +278,16 @@ left:-10px;
   font-size:24px;
 
 }
+  /*pagetop*/
+  .back {
+    top: 350px;
+    right: 10px;
+}
+  
+  /*footer*/
   
  .footer-navi-contents{
   font-size:18px;
 }
+  
 }
