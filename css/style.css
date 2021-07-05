@@ -286,8 +286,8 @@ button:hover{
   font-size:50px;
   color:#333333;
   position:fixed;
-  top:650px;
-  right:50px;
+  bottom:10px;
+  right:10px;
   z-index:9999;
 }
 /*footer*/
@@ -502,11 +502,6 @@ textarea{
   height:200px;
 }
 
-/*pagetop*/
-.back {
-  top: 350px;
-  right: 10px;
-}
 /*footer*/
 .footer-navi-contents{
   font-size:18px;
