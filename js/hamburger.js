@@ -12,7 +12,6 @@ jQuery(function ($) {
   });
 });
 
-$(".header-navi-contents-list"
-.a).on("click",function(){
+$(".header-navi-contents-list a").on("click",function(){
 
 });
