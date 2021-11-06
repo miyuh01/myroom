@@ -1,6 +1,7 @@
 
 body{
   margin:0;
+  overflow:hidden;
 
 }
 ul{
@@ -92,7 +93,7 @@ a.order_btn{
 .faq__item img,
 .faq__contents__menu__inner img
 {
-  height:100px;
+  /*height:100px;*/
   display:block;
   width:80%;
 }
@@ -103,7 +104,7 @@ a.order_btn{
 img.faq_btn{
   display:block;
   position:relative;
-  bottom:60px;
+  bottom:30px;
   left:75%;
 }
 
@@ -166,8 +167,8 @@ img.faq_btn{
   .faq__item__link{
     height:10px;
   }
-  img.faq_btn{
+  /*img.faq_btn{
     left:100%;
-  }
+  }*/
 
 }
