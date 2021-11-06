@@ -152,6 +152,10 @@ img.faq_btn{
 
 @media screen and (max-width:360px){
 
+  .main_content_article{
+  width:90%;
+  }
+  
   .note img{
     position:relative;
     left:30px;
@@ -166,8 +170,8 @@ img.faq_btn{
   .faq__item__link{
     height:10px;
   }
-  /*img.faq_btn{
+  img.faq_btn{
     left:100%;
-  }*/
+  }
 
 }
