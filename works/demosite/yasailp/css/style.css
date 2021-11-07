@@ -92,7 +92,7 @@ a.order_btn{
 .faq__item img,
 .faq__contents__menu__inner img
 {
-  *height:100px;
+  height:100px;
   display:block;
   width:80%;
 }
