@@ -9,7 +9,7 @@ $(function(){
 
 $(function)(){
   $('.js-faq__item__link').on('click',function(){
-   $('img.faq_btn').css('transform','rotate:90');
+   $('img.faq_btn').css('transform','rotate(90deg)');
   return false;
    });
 
