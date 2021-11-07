@@ -59,8 +59,8 @@ a.order_btn{
   width:10%;
   display:block;
   position:relative;
-  left:130px;
-  top:120px;
+  left:10px;
+  top:150px;
   z-index:2;
 }
 
@@ -159,8 +159,7 @@ img.faq_btn{
 
   .note img{
     position:relative;
-    left:30px;
-    top:80px;
+   /* top:80px;*/
     z-index:2;
   }
 
