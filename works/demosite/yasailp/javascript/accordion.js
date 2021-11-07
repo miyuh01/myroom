@@ -18,7 +18,7 @@ $(function(){
 
 $(function(){
     $(".js-faq__item__link").click(function(){
-        $('#hoge').css('transform','rotate(90deg)');
+        $('.faq_btn').css('transform','rotate(90deg)');
        return false ;
     });
 });
