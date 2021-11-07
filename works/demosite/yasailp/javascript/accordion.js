@@ -6,15 +6,3 @@ $(function(){
    });
   });
 });
-
-
-  
-Query(function ($) {
-$('img.faq_btn').on('click', function () {
-  /*クリックでコンテンツを開閉*/
- 
-  /*矢印の向きを変更*/
-  $(this).toggleClass('open');
-});
-
-});
