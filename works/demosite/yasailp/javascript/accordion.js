@@ -12,5 +12,5 @@ $(function)(){
    $('img.faq_btn').css('transform','rotate(90deg)');
   return false;
    });
-
+});
 });
