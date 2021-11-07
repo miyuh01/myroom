@@ -17,7 +17,7 @@ $(function(){
 
 
     $(".js-faq__item__link").click(function(){
-        $('.faq_btn').css('transform','rotate(90deg)');
-       return false ;
+        $('img.faq_btn').css('transform','rotate(90deg)');
+       return false;
     });
 });
