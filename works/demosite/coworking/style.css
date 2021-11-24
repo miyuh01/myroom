@@ -115,6 +115,7 @@ transition:0.3s;
   margin-left:auto;
   margin-right:auto;
   display:flex;
+  justify-content:center;
 }
 .section-header,
 .concept-caption{
