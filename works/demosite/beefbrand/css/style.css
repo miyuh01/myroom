@@ -290,7 +290,11 @@ width:100%;
 /*480px~*/
 
 @media screen and (max-width:480px){
-
+     .header_logo {
+      width: 60px;
+      height:auto;
+      left: 5px;
+  }
 
   .header_menu {
       width: 150px;
