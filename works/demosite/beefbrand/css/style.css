@@ -266,7 +266,11 @@ width:100%;
 }
 
   .first_heading{
-    writing-mode: vertical-rl;
+    margin-left:0;
+    margin-right:0;
+    writing-mode: vertical-lr;
+   line-height: 0.8;
+
   }
 .bg_shift{
   margin-bottom:20px;
