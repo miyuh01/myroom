@@ -292,6 +292,8 @@ width:100%;
 /*480px~*/
 
 @media screen and (max-width:480px){
+
+
   .header_menu {
       width: 150px;
   }
@@ -314,19 +316,21 @@ width:100%;
 }
   .second_discription_conteiner{
    display:block;
+   text-align: center;
   }
   .second_discription{
     width:100%;
     margin-left: 15px;
+  text-align:left;
   }
 .ichatch_discription_image{
- width:100%;
+  width:100%;
   top:500px;
 }
   .production_image:nth-child(odd),
   .production_image:nth-child(even){
-    margin-left: 0;
-    margin-right: 0;
+    margin-left:auto;
+    margin-right:auto;
   }
 
   .shop_contents_link{
