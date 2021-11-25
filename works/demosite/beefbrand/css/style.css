@@ -254,9 +254,6 @@ width:100%;
 /*768px~*/
 
 @media screen and (max-width:768px){
-.header_menu{
-  width: 220px;
-}
 
   .ichach_caption{
     top:15px;
@@ -267,10 +264,9 @@ width:100%;
 
   .first_heading{
     margin-left:0;
-    margin-right:0;
+     margin-right:0;
     writing-mode: vertical-lr;
    line-height: 0.8;
-
   }
 .bg_shift{
   margin-bottom:20px;
@@ -296,16 +292,23 @@ width:100%;
 /*480px~*/
 
 @media screen and (max-width:480px){
+  .header_menu {
+      width: 150px;
+  }
+  .header_navi_menu_btn{
+    padding-left:10px;
+    padding-right:10px;
+  }
+
   .ichatch_image{
     width:50%;
   }
   .first_heading{
     font-size:64px;
   }
-  .bg_shift{
+  .bg-shift{
     font-size:18px;
   }
-
 .second_heading{
   font-size:28px;
 }
@@ -313,10 +316,13 @@ width:100%;
    display:block;
   }
   .second_discription{
-    width:45%;
-    margin-left:0;
+    width:100%;
+    margin-left: 15px;
   }
-
+.ichatch_discription_image{
+ width:110%;
+  top:500px;
+}
   .production_image:nth-child(odd),
   .production_image:nth-child(even){
     margin-left: 0;
