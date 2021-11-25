@@ -295,7 +295,7 @@ width:100%;
 
 @media screen and (max-width:480px){
   .ichatch_image{
-    width:auto;
+    width:50%;
   }
 
   .first_discription{
