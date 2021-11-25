@@ -294,7 +294,11 @@ width:100%;
   .ichatch_image{
     width:50%;
   }
-
+  
+  .first_heading{
+    font-size:64px;
+  }
+  
   .first_discription{
     line-height: 1.4;
     font-size:18px;
