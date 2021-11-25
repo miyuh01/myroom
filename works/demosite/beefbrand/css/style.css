@@ -270,6 +270,7 @@ width:100%;
   }
 .bg_shift{
   margin-bottom:20px;
+  line-height:1.5;
 }
   .second_discription_conteiner{
    width:100%;
@@ -294,19 +295,17 @@ width:100%;
   .ichatch_image{
     width:50%;
   }
-  
   .first_heading{
     font-size:64px;
   }
-  
   .first_discription{
     line-height: 1.4;
     font-size:18px;
   }
-  .second_heading{
+
+.second_heading{
   font-size:28px;
 }
-  
   .second_discription_conteiner{
    width:170%;
    display:block;
@@ -328,7 +327,6 @@ width:100%;
   }
 .shop_head{
   width:100%;
-  
 }
 .shop_image{
   width:200px;
