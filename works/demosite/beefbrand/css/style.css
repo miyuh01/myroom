@@ -4,6 +4,7 @@
   font-size:18px;
   background-color:#A5271F;
 }
+
 ul{
   list-style-type: none;
 }
@@ -42,7 +43,7 @@ width:100%;
 }
 .header_menu{
   position: relative;
-  left: 150px;
+  left:150px;
 }
 
 .header_navi_menu_btn{
@@ -93,6 +94,7 @@ width:100%;
   position:relative;
   top:150px;
 }
+
 .ichach_caption_name,
 .first_discription,
 .second_discription{
@@ -105,8 +107,10 @@ width:100%;
 
 }
 
+
+
 .container{
-  width:100%;
+  display:block;
 }
 
 /*南の大地*/
@@ -123,7 +127,7 @@ width:100%;
 
 .ichatch_discription_image{
  width:100%;
-  height:500px;
+ height:500px;
   position: absolute;
   top:700px;
   z-index:1;
@@ -165,6 +169,7 @@ width:100%;
   width:62.7%;
   font-size: 24px;
   line-height:2.4;
+   align-items: flex-start;
 }
 
 
@@ -172,6 +177,12 @@ width:100%;
 .production_image{
   width:350px;
   height:230px;
+}
+.production_image:nth-child(odd){
+  margin-right:5px;
+}
+.production_image:nth-child(even){
+  margin-left:5px;
 }
 
 .row{
@@ -238,4 +249,67 @@ width:100%;
 .footer_copy{
   text-align: center;
   background-color:#462c2a;
+}
+
+
+/*768px~*/
+
+@media screen and (max-width:768px){
+.header_menu{
+  left:90px;
+}
+
+  .ichach_caption{
+    top:15px;
+  }
+.ichatch_image{
+  width:80%;
+}
+
+  .first_heading{
+    writing-mode: vertical-rl;
+  }
+
+  .second_discription_conteiner{
+   width:100%;
+
+  }
+  .second_discription{
+    line-height:1.4;
+  }
+
+  .shop_contents{
+    display: block;
+  }
+  .shop_contents_link:first-child{
+    margin-bottom:30px;
+  }
+}
+
+
+/*480px~*/
+
+@media screen and (max-width:480px){
+  .ichatch_image{
+    width:auto;
+  }
+
+  .first_discription{
+    line-height: 1.4;
+    font-size:18px;
+  }
+#delicious{
+
+}
+  .second_discription_conteiner{
+   width:170%;
+   display:block;
+  }
+  .second_discription{
+    margin-left:5px;
+  }
+.shop_head{
+  width:100%;
+  border-bottom:none;
+}
 }
