@@ -263,11 +263,9 @@ width:100%;
 }
 
   .first_heading{
-    margin-left:0;
-     margin-right:0;
-    writing-mode: vertical-lr;
-   line-height: 0.8;
+    line-height: 1.1;
   }
+  
 .bg_shift{
   margin-bottom:20px;
   line-height:1.5;
@@ -306,7 +304,7 @@ width:100%;
     width:50%;
   }
   .first_heading{
-    font-size:64px;
+    font-size:48px;
   }
   .bg-shift{
     font-size:18px;
