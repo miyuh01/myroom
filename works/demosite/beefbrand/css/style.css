@@ -312,6 +312,13 @@ width:100%;
   .second_discription{
     margin-left:5px;
   }
+  
+  .production_image:nth-child(odd),
+  .production_image:nth-child(even){
+    margin-left: 0;
+    margin-right: 0;
+  } 
+  
 .shop_head{
   width:100%;
   border-bottom:none;
