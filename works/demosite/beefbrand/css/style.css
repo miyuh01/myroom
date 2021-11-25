@@ -269,6 +269,10 @@ width:100%;
   .first_heading{
     writing-mode: vertical-rl;
   }
+  
+  .bg_shift{
+  margin-bottom:20px;
+}
 
   .second_discription_conteiner{
    width:100%;
