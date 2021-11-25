@@ -299,9 +299,10 @@ width:100%;
     line-height: 1.4;
     font-size:18px;
   }
-#delicious{
-
+  .second_heading{
+  font-size:28px;
 }
+  
   .second_discription_conteiner{
    width:170%;
    display:block;
@@ -323,7 +324,7 @@ width:100%;
   }
 .shop_head{
   width:100%;
-  border-bottom:none;
+  
 }
 .shop_image{
   width:200px;
