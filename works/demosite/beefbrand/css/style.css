@@ -28,22 +28,22 @@ width:100%;
 }
 .header_contents_inner{
   width:100%;
-  display:flex;
-  position:fixed;
+  display:inline-block;
   top:0;
   padding-top:10px;
-  z-index:99999;
 }
 
 .header_logo{
   width:80px;
   height:73px;
   position: relative;
-  left: -80px;
+  left:30px;
 }
 .header_menu{
-  position: relative;
-  left:150px;
+  position:fixed;
+  top:10px;
+   right:10px;
+  z-index:99999;
 }
 
 .header_navi_menu_btn{
@@ -54,7 +54,6 @@ width:100%;
  border:1px solid;
  border-radius: 5px;
  box-sizing: border-box;
-
 }
 
 .js__header__menu__item__link::after{
@@ -256,7 +255,7 @@ width:100%;
 
 @media screen and (max-width:768px){
 .header_menu{
-  left:90px;
+  width: 220px;
 }
 
   .ichach_caption{
