@@ -310,7 +310,7 @@ width:100%;
    display:block;
   }
   .second_discription{
-    margin-left:5px;
+    margin-left:0;
   }
   
   .production_image:nth-child(odd),
