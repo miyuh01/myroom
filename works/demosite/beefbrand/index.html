@@ -133,8 +133,8 @@
   $(function(){
     $('.js__header__menu__item__link').each(function(){
       $(this).on('click',function(){
+        $(this).ToggleClass('open');
         $("+.submenu",this).slideToggle();
-        $('.js__header__menu__item__link::after').toggleClass(".open");
         return false;
       });
     });
