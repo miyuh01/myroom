@@ -62,10 +62,10 @@ width:100%;
   content: '\f106';
   font-weight: 900;
 }
-.open{
-  -webkit-transform:rotate(45deg);
-  transform:rotate(45deg);
+.js__header__menu__item__link.open:after{
+  content: '\f107';
 }
+
 .header_navi_menu_list{
   padding-left:0;
 }
