@@ -130,10 +130,11 @@
   </body>
 
   <script>
-  $(function(){
+    
+    $(function(){
     $('.js__header__menu__item__link').each(function(){
       $(this).on('click',function(){
-        $(this).ToggleClass('.open');
+        $(this).toggleClass('open');
         $("+.submenu",this).slideToggle();
         return false;
       });
