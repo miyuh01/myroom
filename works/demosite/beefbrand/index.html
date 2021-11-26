@@ -133,7 +133,7 @@
   $(function(){
     $('.js__header__menu__item__link').each(function(){
       $(this).on('click',function(){
-        $(this).ToggleClass('open');
+        $(this).ToggleClass('.open');
         $("+.submenu",this).slideToggle();
         return false;
       });
