@@ -17,7 +17,7 @@ body{
 .header_menu{
   display:flex;
   width:100%;
-  margin:30px 30px 0 30px;
+  margin:10px 30px 0 30px;
   position:relative;
   z-index:999;
 }
@@ -296,16 +296,15 @@ body{
 
 /*pc1024px~*/
 @media screen and (max-width:1024px){
-  .same_btn {
-  bottom:0px;
+  .header{
+    height:500px;
   }
+
   .sp_margin{
     margin-right:5px;
     margin-left:5px;
 
   }
-
-
 
   .contents_heading.flag::before,
   .contents_heading.flag::after{
@@ -334,10 +333,28 @@ body{
 .contents_heading{
   font-size:64px;
 }
+
+.contents_inner{
+  display:block;
+}
+.access_map{
+  width:100%;
+}
+.access_map_contents{
+  display:block;
+}
+.access_map_discription{
+  margin: 10px 5px 0 5px;
+
+}
 }
 
 /*スマホ480px~*/
 @media screen and (max-width:480px){
+.header_logo{
+  width:80px;
+}
+
 
 .main{
   top:10px;
@@ -356,8 +373,13 @@ body{
   padding-right:50px;
   line-height:2;
 }
-
-
+.contents_inner{
+  margin-left:auto;
+  margin-right: auto;
+}
+.overflow{
+  width:50%;
+}
 .same_btn{
   padding:10px 50px;
 }
@@ -372,5 +394,9 @@ body{
 }
 .galley_cap{
   bottom:10px;
+}
+
+.map_logo_right{
+  left:0;
 }
 }
