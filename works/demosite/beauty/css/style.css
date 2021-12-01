@@ -52,7 +52,7 @@ body{
 }
 .main{
   position: relative;
-  top:100px;
+  top:250px;
 }
 .overflow{
   overflow:hidden;
