@@ -1,0 +1,376 @@
+@charset "utf-8";
+body{
+  width:100%;
+ font-family:'Hiragino Kaku Gothic Pro','Hiragino Kaku Gothic ProN',serif,sans-serif,'PT Serif';
+ color:#6B504F;
+ background-color:#FEF6E8;
+ margin:0 0;
+}
+
+#first_action,#concept,#menu,#galley
+{
+  margin-bottom:80px;
+}
+.header{
+  height:800px;
+}
+.header_menu{
+  display:flex;
+  width:100%;
+  margin:30px 30px 0 30px;
+  position:relative;
+  z-index:999;
+}
+.header_menu_containner{
+ display:flex;
+ padding-left:600px;
+ list-style-type: none;
+}
+.header_menu_list{
+  display:block;
+  padding:0 20px;
+}
+
+.header_menu_list>a{
+  font-size: 24px;
+  font-weight: bold;
+  font-family:'PT Serif';
+  color:#6B504F;
+  text-decoration: none;
+}
+.header_menu_list>a:hover{
+  color:#ffffff;
+  transition:0.3s;
+}
+.header_slider_warp{
+  position:relative;
+  bottom:100px;
+}
+.header_slider_warp img{
+  width:100%;
+  position:absolute;
+}
+.main{
+  position: relative;
+  top:100px;
+}
+.overflow{
+  overflow:hidden;
+}
+/*first_action*/
+#first_action{
+  display: flex;
+  justify-content:center;
+
+}
+.first_action_p{
+  text-align: center;
+  line-height:4;
+}
+
+/*グリーン装飾*/
+#first_action::before,
+#first_action::after{
+  display:inline-block;
+  content:'';
+  width:50px;
+  height:40px;
+  background-image:url('../image/green.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+#first_action::after{
+  transform: rotateY(180deg);
+}
+
+.contents{
+  text-align:center;
+  color:#9DBBB4;
+}
+.contents_heading{
+  margin:0px;
+  font-family: 'PT Serif';
+  font-weight:400;
+  font-size:84px;
+  line-height:0.8;
+}
+.contents_caption{
+  font-size:11px;
+}
+
+.contents_inner{
+  display: flex;
+  justify-content: center;
+  margin-top:30px;
+}
+
+.concept_discription,
+.menu_discription
+{
+  width:470px;
+  line-height:2.4;
+}
+
+.concept_discription_p,
+.menu_discription_p{
+  line-height:2.4;
+}
+
+.concept_discription{
+  margin-right:86px;
+}
+.menu_discription{
+  margin-left:50px;
+}
+
+.same_btn{
+  margin-right: 15px;
+  padding:15px 109px;
+  font-family: 'PT Serif';
+  font-size:14px;
+  border:1px solid #6B504F;
+  color:#6B504F;
+  text-decoration:none;
+  position:relative;
+  bottom:80px;
+}
+.same_btn:hover{
+  text-decoration:underline;
+
+}
+/*ギャラリー*/
+#galley{
+  padding-top:36px;
+  padding-bottom:105px;
+  background-color: inherit;
+  background-image:url('../image/beauty_bg.png');
+  background-size: cover;
+}
+
+.contents_heading.flag::before,
+.contents_heading.flag::after{
+  display:inline-block;
+  content:'';
+  width:364px;
+  height:140px;
+  background-image:url('../image/flag.png');
+  background-size:contain;
+  background-repeat:no-repeat;
+   vertical-align: middle;
+}
+
+.flag::after{
+  transform: rotateY(-180deg);
+}
+
+.galley_cap{
+  position: relative;
+  bottom:50px;
+}
+.galley_contents_inner{
+  margin-top:80px;
+  display: flex;
+  justify-content: center;
+}
+.galley_contents_image{
+  width:300px;
+  height: 400px;
+  margin:0 90px;
+  display: block;
+  filter:drop-shadow(1px 1px 1px rgba(0 ,0,0,0.6));
+  cursor:pointer;
+}
+.galley_contents_image:nth-child(2){
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+.galley_caption{
+  position:relative;
+  left:205px;
+  bottom:36px;
+  z-index:2;
+}
+
+.galley_contens_image_link{
+  width:230px;
+  padding:22px 35px;
+  margin:0  0;
+  background-color:#ffffff;
+  text-align: center;
+  position: absolute;
+  bottom:12px;
+}
+.galley_btn{
+  color:#6B504F;
+  text-decoration:none;
+}
+.galley_btn:hover{
+  text-decoration:underline;
+}
+
+/*ブログ*/
+
+#blog{
+  margin-bottom:150px;
+}
+.blog_group{
+  display: flex;
+  justify-content:center;
+}
+
+.blog_group_contents{
+  width:280px;
+}
+
+.blog_group_contents:nth-child(2){
+  margin-left: 120px;
+  margin-right:120px;
+  position: relative;
+  top:50px;
+}
+.blog_group_contents:nth-child(3){
+  position: relative;
+  top:100px;
+}
+
+
+.blog_time{
+  font-family:'PT Serif';
+  position:relative;
+  top:35px;
+  left:-35px;
+}
+.blog_contents_inner{
+    text-decoration: none;
+}
+
+.blog_contents_inner:hover{
+  text-decoration: underline #6B504F;
+}
+.blog_heading,
+.blog_discription{
+  color:#6B504F;
+  font-weight: bold;
+}
+.blog_discription{
+  margin-left:0;
+}
+.blog_discription>p{
+  margin-top: 5px;
+}
+/*アクセス*/
+#access{
+  background-color: inherit;
+  background-image:url('../image/beauty_bg.png');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.position_top{
+  position: relative;
+  bottom:40px;
+}
+.access_map_contents{
+  display:flex;
+  justify-content:center;
+
+}
+.access_map{
+  margin-right:60px;
+}
+.access_map_discription{
+  font-size:14px;
+  padding-bottom:100px;
+}
+
+.map_logo_right{
+  position: relative;
+  left:290px;
+}
+/*フッター*/
+.copy{
+  text-align: center;
+}
+
+/*pc1024px~*/
+@media screen and (max-width:1024px){
+  .same_btn {
+  bottom:0px;
+  }
+  .sp_margin{
+    margin-right:5px;
+    margin-left:5px;
+
+  }
+
+
+
+  .contents_heading.flag::before,
+  .contents_heading.flag::after{
+    width:200px;
+    height:100px;
+  }
+  .galley_cap{
+    bottom:10px;
+  }
+
+}
+/*タブレット768px*/
+@media screen and (max-width:768px){
+  .header{
+    height:350px;
+  }
+.concept_discription_p,
+.menu_discription_p
+{
+  margin-top: 0;
+}
+.image_illust{
+  position:relative;
+  top:10px;
+}
+.contents_heading{
+  font-size:64px;
+}
+}
+
+/*スマホ480px~*/
+@media screen and (max-width:480px){
+
+.main{
+  top:10px;
+}
+
+#first_action::before{
+  position: relative;
+  left:30px;
+}
+#first_action::after{
+  position: relative;
+  right:30px;
+}
+.first_action_p{
+  padding-left:50px;
+  padding-right:50px;
+  line-height:2;
+}
+
+
+.same_btn{
+  padding:10px 50px;
+}
+.contents_heading{
+  font-size:32px;
+}
+
+.contents_heading.flag::before,
+.contents_heading.flag::after{
+  width:80px;
+  height:50px;
+}
+.galley_cap{
+  bottom:10px;
+}
+}
