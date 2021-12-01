@@ -302,6 +302,10 @@ body{
     margin-left:5px;
 
   }
+  
+  .same_btn{
+    bottom:0;
+  }
 
   .contents_heading.flag::before,
   .contents_heading.flag::after{
