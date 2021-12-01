@@ -54,9 +54,6 @@ body{
   position: relative;
   top:250px;
 }
-.overflow{
-  overflow:hidden;
-}
 /*first_action*/
 #first_action{
   display: flex;
@@ -335,7 +332,11 @@ body{
 }
 
 .contents_inner{
-  display:block;
+  flex-direction:column;
+}
+
+.position_shift{
+ order:2;
 }
 .access_map{
   width:100%;
@@ -357,6 +358,7 @@ body{
 
 
 .main{
+  max-width:480px;
   top:10px;
 }
 
@@ -369,17 +371,15 @@ body{
   right:30px;
 }
 .first_action_p{
-  padding-left:15px;
-  padding-right:15px;
-  line-height:1.8;
+   padding-left:50px;
+  padding-right:50px;
+  line-height:2;
 }
 .contents_inner{
   margin-left:auto;
   margin-right: auto;
 }
-.overflow{
-  width:50%;
-}
+
 .same_btn{
   padding:10px 50px;
 }
