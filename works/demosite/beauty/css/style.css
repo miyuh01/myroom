@@ -11,6 +11,10 @@ body{
 {
   margin-bottom:80px;
 }
+
+.warapper{
+  width:100%;
+}
 .header{
   height:800px;
 }
@@ -425,6 +429,16 @@ body{
   font-size:64px;
 }
 
+.align_right{
+  position: relative;
+  left:20%;
+  text-align: right;
+}
+
+.concept_discription_p,
+ .menu_discription_p{
+   line-height:2;
+ }
 .galley_contents_image:nth-child(2){
     margin: 0 10px;
 }
