@@ -14,6 +14,7 @@ body{
 
 .warapper{
   width:100%;
+ overflow-y:hidden; 
 }
 .header{
   height:800px;
