@@ -322,6 +322,69 @@ body{
   .header{
     height:350px;
   }
+  header-nav-open{
+  display:block;
+  width:30px;
+  height:22px;
+  position:fixed;
+  top:5px;
+  right:5px;
+  z-index: 9999;
+}
+#header-nav-open span,
+#header-nav-open span::before,
+#header-nav-open span::after{
+  position:relative;
+  transition:all 0.4s;
+  height:3px;
+  width:25px;
+  background:#333333;
+  display:block;
+  vertical-align: middle;
+  content:'';
+  z-index:99999;
+}
+#header-nav-open span::before{
+  bottom:-9px;
+}
+#header-nav-open span::after{
+  bottom:-16px;
+}
+#header-navi{
+  width:100%;
+  height:100%;
+  display:none;
+  position: fixed;
+   z-index:9999;
+  transition:.2s ease-in-out;
+}
+
+
+/*ハンバーガーアニメーション*/
+   #header-navi.open{
+     width:100%;
+     height:100%;
+     display:block;
+     opacity:1;
+     overflow:auto;
+     top:0;
+     position:fixed;
+     z-index:9998;
+     background-color:rgba(255,211,36,0.9);
+     overflow:hidden;
+   }
+   #header-navi.open:before {
+   content: '';
+   overflow: hidden;
+   -webkit-filter: blur(10px);
+   -moz-filter: blur(10px);
+   -o-filter: blur(10px);
+   -ms-filter: blur(10px);
+   filter: blur(10px);
+   z-index: -1;
+}
+
+  
 .concept_discription_p,
 .menu_discription_p
 {
