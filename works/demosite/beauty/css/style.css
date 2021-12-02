@@ -14,6 +14,9 @@ body{
 .header{
   height:800px;
 }
+.header_nav.open{
+  display:none;
+}
 .header_menu{
   display:flex;
   width:100%;
@@ -44,7 +47,7 @@ body{
 }
 .header_slider_warp{
   position:relative;
-  bottom:100px;
+   /*bottom:100px;*/
 }
 .header_slider_warp img{
   width:100%;
@@ -168,7 +171,7 @@ body{
 .galley_contents_inner{
   margin-top:80px;
   display: flex;
-  flex-warp:warp;
+  flex-wrap: wrap;
   justify-content: center;
 }
 .galley_contents_image{
@@ -216,12 +219,13 @@ body{
 }
 .blog_group{
   display: flex;
-  flex-warp:warp;
+  flex-wrap: wrap;
   justify-content:center;
 }
 
 .blog_group_contents{
   width:280px;
+
 }
 
 .blog_group_contents:nth-child(2){
@@ -304,7 +308,6 @@ body{
     margin-left:5px;
 
   }
-  
   .same_btn{
     bottom:0;
   }
@@ -317,76 +320,98 @@ body{
   .galley_cap{
     bottom:10px;
   }
+  .galley_contents_inner {
+    width: calc(100%/1);
+}
+.galley_contents_image {
+    margin: 0 10px;
+}
 
 }
 /*タブレット768px*/
 @media screen and (max-width:768px){
   .header{
     height:350px;
+
   }
-  header-nav-open{
+
+
+  .header_menu{
+    display:block;
+    margin:0 0;
+    padding:10px 10px 0 10px;
+    background-color:#FEF6E8;
+    position:fixed;
+  }
+/*ハンバーガーメニュ-*/
+.header_menu_containner{
+  display:none;
+  box-shadow:0px -10px 11px 0.3px #fcf8f263;
+}
+ .header_nav_open{
   display:block;
   width:30px;
   height:22px;
   position:fixed;
-  top:5px;
+  top:20px;
   right:5px;
-  z-index: 9999;
-}
-#header-nav-open span,
-#header-nav-open span::before,
-#header-nav-open span::after{
-  position:relative;
-  transition:all 0.4s;
-  height:3px;
-  width:25px;
-  background:#333333;
-  display:block;
-  vertical-align: middle;
-  content:'';
-  z-index:99999;
-}
-#header-nav-open span::before{
+ }
+
+  .header_nav_open span,
+  .header_nav_open span::before,
+  .header_nav_open span::after{
+    content:'';
+    width:25px;
+    height:3px;
+    position:relative;
+    transition:all 0.4s;
+    background:#6B504F;
+    display:block;
+    vertical-align: middle;
+    z-index:999;
+  }
+.header_nav_open span::before{
   bottom:-9px;
 }
-#header-nav-open span::after{
+.header_nav_open span::after{
   bottom:-16px;
 }
-#header-navi{
-  width:100%;
-  height:100%;
-  display:none;
-  position: fixed;
-   z-index:9999;
-  transition:.2s ease-in-out;
+/*ハンバーガーメニュ-アニメーション*/
+.header_nav_open.active span{
+  transform: translateY(8px)
+  rotate(-45deg);
+}
+.header_nav_open.active span::before {
+    transform: translateY(8px)
+               rotate(45deg);
+    opacity: 0;
+}
+.header_nav_open.active span::after {
+    bottom:-10px;
+    transform: translateY(-12px)
+                  rotate(90deg);
+}
+
+ .open{
+   width: 100%;
+   display: block;
+   text-align:left;
+   position: fixed;
+   height: 500px;
+   top: 29%;
+   padding-right: auto;
+   transform: translate(-50%,-50%);
+   z-index: 998;
+   background-color: rgba(254,246,232,0.9);
+}
+.header_menu_list {
+    position: relative;
+    left: 20%;
+    top: 10%;
 }
 
 
-/*ハンバーガーアニメーション*/
-   #header-navi.open{
-     width:100%;
-     height:100%;
-     display:block;
-     opacity:1;
-     overflow:auto;
-     top:0;
-     position:fixed;
-     z-index:9998;
-     background-color:rgba(255,211,36,0.9);
-     overflow:hidden;
-   }
-   #header-navi.open:before {
-   content: '';
-   overflow: hidden;
-   -webkit-filter: blur(10px);
-   -moz-filter: blur(10px);
-   -o-filter: blur(10px);
-   -ms-filter: blur(10px);
-   filter: blur(10px);
-   z-index: -1;
-}
 
-  
 .concept_discription_p,
 .menu_discription_p
 {
@@ -400,13 +425,10 @@ body{
   font-size:64px;
 }
 
-.contents_inner{
-  flex-direction:column;
+.galley_contents_image:nth-child(2){
+    margin: 0 10px;
 }
 
-.position_shift{
- order:2;
-}
 .access_map{
   width:100%;
 }
@@ -427,7 +449,6 @@ body{
 
 
 .main{
-  max-width:480px;
   top:10px;
 }
 
@@ -445,16 +466,29 @@ body{
   line-height:2;
 }
 .contents_inner{
+  flex-wrap: wrap;
   margin-left:auto;
   margin-right: auto;
 }
+.menu_image{
+  width:95%;
+}
 
+.position_shift{
+ order:2;
+}
 .same_btn{
+  bottom:80px;
   padding:10px 50px;
+}
+
+.image_illust{
+  width:50%;
 }
 .contents_heading{
   font-size:32px;
 }
+
 
 .contents_heading.flag::before,
 .contents_heading.flag::after{
