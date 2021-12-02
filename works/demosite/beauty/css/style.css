@@ -432,7 +432,7 @@ body{
 
 .align_right{
   position: relative;
-  left:5%;
+  left:5px;
   text-align: right;
 }
 
