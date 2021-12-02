@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>美容室サイト</title>
   <link rel="stylesheet" href="./css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
   <div class="warapper">
@@ -13,6 +14,11 @@
           <div class="header_menu">
 
             <img class="header_logo" src="./image/friends.svg">
+
+            <div class="header_nav_open">
+              <span></span>
+            </div>
+
             <ul class="header_menu_containner">
               <li class="header_menu_list">
                 <a href="#home">
@@ -65,7 +71,7 @@
               <span class="contents_caption">コンセプト</span>
             </div>
             <article class="contents_inner">
-              <div class="concept_discription sp_margin">
+              <div class="concept_discription sp_margin position_shift">
                 <p class="concept_discription_p">
                   Friends(フレンズ )は創業〇〇年。<br>〇〇で開業し、ともだちのようにひとりひとりのお話に耳を傾け美しくする努力をしてまいりました。<br>これからもヘアでたくさんのお客様の日々を楽しくするお手伝いをしてまいります。
                 </p>
@@ -74,7 +80,7 @@
                 </a>
                 <img class="image_illust" src="./image/concept_article_img.png" alt="メニューイメージイラスト" >
               </div>
-              <img class="overflow" src="./image/concept_img.png" alt="concept_img">
+              <img class="menu_image" src="./image/concept_img.png" alt="concept_img">
               </article>
           </div>
   <!--メニュー-->
@@ -84,8 +90,8 @@
                       <span class="contents_caption">メニュー</span>
                  </div>
                 <article class="contents_inner">
-                  <img class="overflow" src="./image/menu_img.png" alt="menu_image">
-                <div class="menu_discription sp_margin">
+                  <img class="item menu_image" src="./image/menu_img.png" alt="menu_image">
+                <div class="item menu_discription sp_margin">
                   <p class="menu_discription_p">
                     フレンズは多彩なメニューを用意しております。<br>カットやカラーはもちろん、着付けやヘアセットなどにも対応しております。<br>お客様のご要望に沿って丁寧なカウンセリングを心がけておりますので、お気軽にご相談ください。
                   </p>
@@ -236,8 +242,22 @@
       <p class="copy">美容室デモサイト</p>
     </footer>
   </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script>
+  //スマホメニュー
+  $(function(){
+    ('.header_nav_open').on('click',function(){
+      $(this).toggleClass('active');
+      ('.header_menu_containner').toggleClass('open');
+    });
+  });
+$(function(){
+  $('.header_menu_list').on('click',function(){
+    $('.header_menu_containner').toggleClass('open');
+    $('.header_nav_open').toggleClass(' active');
+  });
+});
+
+  //ヘッダースライダー
   $(function(){
     $('.header_slider_warp img:nth-child(n+2)').hide();
     setInterval(function(){
