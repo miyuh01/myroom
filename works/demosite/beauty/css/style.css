@@ -46,7 +46,7 @@ body{
   text-decoration: none;
 }
 .header_menu_list>a:hover{
-  color:#ffffff;
+  color:#9DBBB4;
   transition:0.3s;
 }
 .header_slider_warp{
@@ -380,6 +380,10 @@ body{
 .header_nav_open span::after{
   bottom:-16px;
 }
+
+.header_menu_containner{
+  padding-left:0;
+}
 /*ハンバーガーメニュ-アニメーション*/
 .header_nav_open.active span{
   transform: translateY(8px)
@@ -395,17 +399,20 @@ body{
     transform: translateY(-12px)
                   rotate(90deg);
 }
-
- .open{
+.header_menu_containner.open{
+  display:block;
+  z-index:998;
+}
+.header_menu_list.open{
    width: 100%;
    display: block;
    text-align:left;
    position: fixed;
    height: 500px;
    top: 29%;
-   padding-right: auto;
+   padding-left:0;
    transform: translate(-50%,-50%);
-   z-index: 998;
+   z-index: 999;
    background-color: rgba(254,246,232,0.9);
 }
 .header_menu_list {
