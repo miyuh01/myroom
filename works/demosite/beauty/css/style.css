@@ -352,7 +352,6 @@ body{
 /*ハンバーガーメニュ-*/
 .header_menu_containner{
   display:none;
-  box-shadow:0px -10px 11px 0.3px #fcf8f263;
 }
  .header_nav_open{
   display:block;
@@ -415,14 +414,17 @@ body{
    top: 38%;
    padding-left:0;
    transform: translate(-50%,-50%);
-
+   background-color: rgba(254,246,232,0.6);
 }
 .header_menu_list {
     position: relative;
     left: 20%;
     top: 10%;
 }
-
+.header_slider_warp{
+  top:100px;
+  bottom:0;
+}
 
 
 .concept_discription_p,
@@ -471,7 +473,7 @@ body{
 
 
 .main{
-  top:10px;
+  top:80px;
 }
 
 #first_action::before{
@@ -522,7 +524,7 @@ body{
   height:50px;
 }
 .galley_contents_inner {
-    justify-content:center; 
+    justify-content:center;
 }
 .galley_cap{
   bottom:10px;
