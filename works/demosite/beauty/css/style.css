@@ -403,7 +403,8 @@ body{
 .header_menu_containner.open{
   display:block;
   z-index:998;
-  background-color: rgba(254,246,232,0.6);
+ position: relative;
+ left:-19%;
 }
 .header_menu_list.open{
    width: 100%;
@@ -417,6 +418,9 @@ body{
    background-color: rgba(254,246,232,0.6);
 }
 .header_menu_list {
+    padding:0 5px;
+    display:inline-block;
+    text-align:center;
     position: relative;
     left: 20%;
     top: 10%;
@@ -468,7 +472,6 @@ body{
   width:80px;
 }
 
-
 .main{
   top:10px;
 }
@@ -494,7 +497,7 @@ body{
 .menu_image{
   width:95%;
 }
-position_left{
+.position_left{
   left:0;
 }
 
