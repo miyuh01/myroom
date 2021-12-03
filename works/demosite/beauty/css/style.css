@@ -421,10 +421,7 @@ body{
     left: 20%;
     top: 10%;
 }
-.header_slider_warp{
-  top:100px;
-  bottom:0;
-}
+
 
 
 .concept_discription_p,
@@ -473,7 +470,7 @@ body{
 
 
 .main{
-  top:80px;
+  top:10px;
 }
 
 #first_action::before{
@@ -499,7 +496,7 @@ body{
 }
 .position_left{
   position: relative;
-  left:8%;
+  left: 3%;
 }
 
 .position_left_inner{
