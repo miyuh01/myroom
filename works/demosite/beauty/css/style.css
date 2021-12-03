@@ -14,7 +14,6 @@ body{
 
 .warapper{
   width:100%;
- overflow-y:hidden; 
 }
 .header{
   height:800px;
@@ -24,7 +23,6 @@ body{
 }
 .header_menu{
   display:flex;
-  align-items: flex-start;
   width:100%;
   margin:10px 30px 0 30px;
   position:relative;
@@ -310,8 +308,8 @@ body{
   }
 
   .sp_margin{
+      margin-left:15px;
     margin-right:5px;
-    margin-left:5px;
 
   }
   .same_btn{
@@ -398,7 +396,7 @@ body{
                   rotate(90deg);
 }
 
-.header_menu_containner.open{
+ .open{
    width: 100%;
    display: block;
    text-align:left;
@@ -431,10 +429,9 @@ body{
   font-size:64px;
 }
 
-.align_right{
+.position_left{
   position: relative;
-  left:5px;
-  text-align: right;
+  left:5%;
 }
 
 .concept_discription_p,
@@ -460,7 +457,7 @@ body{
 /*スマホ480px~*/
 @media screen and (max-width:480px){
 .header_logo{
-  width:150px;
+  width:80px;
 }
 
 
@@ -477,8 +474,8 @@ body{
   right:30px;
 }
 .first_action_p{
-   padding-left:5px;
-  padding-right:5px;
+   padding-left:50px;
+  padding-right:50px;
   line-height:2;
 }
 .contents_inner{
@@ -489,8 +486,12 @@ body{
 .menu_image{
   width:95%;
 }
+.position_left{
+  position: relative;
+  left:8%;
+}
 
-.position_shift{
+.position_left_inner{
  order:2;
 }
 .same_btn{
@@ -501,18 +502,18 @@ body{
 .image_illust{
   width:50%;
 }
-/*.contents_heading{
+.contents_heading{
   font-size:32px;
-}*/
+}
 
 
 .contents_heading.flag::before,
 .contents_heading.flag::after{
-  width:60px;
+  width:80px;
   height:50px;
 }
 .galley_cap{
-  bottom:8px;
+  bottom:10px;
 }
 
 .map_logo_right{
