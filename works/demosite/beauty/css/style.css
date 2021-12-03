@@ -398,7 +398,7 @@ body{
                   rotate(90deg);
 }
 
- .open{
+.header_menu_containner.open{
    width: 100%;
    display: block;
    text-align:left;
