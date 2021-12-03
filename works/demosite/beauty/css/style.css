@@ -17,10 +17,11 @@ body{
 }
 .header{
   height:800px;
+  box-sizing:border-box;
 }
-.header_nav.open{
+/*.header_nav.open{
   display:none;
-}
+}*/
 .header_menu{
   display:flex;
   width:100%;
