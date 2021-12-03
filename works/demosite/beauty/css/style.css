@@ -494,10 +494,6 @@ body{
 .menu_image{
   width:95%;
 }
-.position_left{
-  position: relative;
-  left: 3%;
-}
 
 .position_left_inner{
  order:2;
