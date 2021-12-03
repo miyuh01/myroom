@@ -501,9 +501,9 @@ body{
 .image_illust{
   width:50%;
 }
-.contents_heading{
+/*.contents_heading{
   font-size:32px;
-}
+}*/
 
 
 .contents_heading.flag::before,
