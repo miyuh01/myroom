@@ -494,6 +494,9 @@ body{
 .menu_image{
   width:95%;
 }
+position_left{
+  left:0;
+}
 
 .position_left_inner{
  order:2;
