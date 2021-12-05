@@ -13,7 +13,7 @@ body{
 }
 
 .warapper{
-  overflow-y: hidden;
+  overflow: hidden;
 }
 .header{
   height:800px;
