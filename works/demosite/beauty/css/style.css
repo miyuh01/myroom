@@ -12,9 +12,9 @@ body{
   margin-bottom:80px;
 }
 
-/*.warapper{
-  overflow: hidden;
-}*/
+.warapper{
+  overflow-y: hidden;
+}
 .header{
   height:800px;
 }
