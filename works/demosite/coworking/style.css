@@ -5,11 +5,11 @@ width:100%;
 margin:0 auto;
 font-family:'Montserrat','YuGothic';
 font-size:62.5%;
-
+overflow-x: hidden;
 }
 .warapper{
+overflow: hidden;
  margin:0 auto;
- 
 }
 
 .concept-caption-more,
@@ -98,7 +98,7 @@ transition:0.3s;
 
 .header-image{
   width:100%;
-  height:600px;
+  height:80%;
   margin-left:200px;
   position:absolute;
   top:100px;
@@ -109,6 +109,9 @@ transition:0.3s;
 .main{
   width:100%;
   margin-top:130px;
+  position:relative;
+  top:500px;
+  margin-bottom:500px;
 }
 /*concept*/
 .concept{
@@ -160,7 +163,6 @@ transition:0.3s;
 }
 .style-container{
   display:flex;
-
 }
 .style-image{
   width:80%;
@@ -268,14 +270,14 @@ transition:0.3s;
 padding-top:0;
 }
 /*planテーブル*/
-.paln-container{
+.plan-container{
   width:1057px;
   margin-left:auto;
   margin-right:auto;
   border-collapse: collapse;
   display:flex;
 }
-.paln-container-inner{
+.plan-container-inner{
     display:flex;
 }
 .plan-item{
@@ -538,4 +540,116 @@ display:block;
 }
 .fade.view{
   opacity:1;
+}
+
+
+/*768px~*/
+@media screen and (max-width:768px){
+
+/*style*/
+
+  .style-container{
+    flex-wrap:wrap;
+  }
+
+.style-container-item{
+  height:auto;
+}
+.style-image{
+  height:auto;
+}
+.style-image.left {
+    order: 1;
+}
+.style-container-item.left{
+  order:2;
+}
+
+.style-container-item.right{
+  position:relative;
+  bottom:50px;
+}
+.style-button{
+  position:relative;
+  bottom:30px;
+}
+
+
+ .service-item-list{
+   width:265px;
+   margin-left:5px;
+   margin-right:5px;
+ }
+
+/*plan*/
+ .plan{
+   height:auto;
+   margin-bottom:30px;
+ }
+ .plan-container{
+   width:100%;
+ }
+ .plan-container-inner{
+   flex-wrap: wrap;
+   justify-content: flex-start;
+ }
+
+
+
+/*info*/
+.info{
+  width:100%
+
+}
+.info-contents{
+     flex-wrap: nowrap;
+     overflow-x: scroll;
+ }
+.info-contents::-webkit-scrollbar{
+  width:10px;
+}
+.info-contents::-webkit-scrollbar-track {
+  border-radius: 10px;
+	background: #f2f2f2;
+}
+.info-contents::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+	background:#000000;
+}
+
+
+.footer-top-margin{
+  margin-top:50px;
+}
+}
+
+
+/*480px~*/
+@media screen and (max-width:480px){
+
+  .info-contants-card-inner {
+      width: 150px;
+      height: 110px;
+    }
+
+  .info-contants-card {
+      width: 150px;
+      height: 250px;
+  }
+  .info-detail{
+    margin-bottom:0;
+  }
+
+  .info-monjyu {
+    width: 150px;
+    height: 110px;
+
+}
+  .event-monjyu {
+      width: 150px;
+      height: 110px;
+      top:0;
+      left:0;
+  }
+
 }
