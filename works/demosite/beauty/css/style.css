@@ -449,11 +449,13 @@ flex-wrap: wrap;
 }
 
 .header_menu_list {
+    width:80px;
     padding:0 10px;
     display:inline-block;
     text-align:center;
     position: relative;
     top: 10px;
+    left:20px;
     transform: translate(-50%,-50%);
 }
 
