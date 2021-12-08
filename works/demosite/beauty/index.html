@@ -12,46 +12,45 @@
 <body>
   <div class="warapper">
         <header class="header">
+          <img class="header_logo" src="./image/friends.svg">
           <div class="header_menu">
-
-            <img class="header_logo" src="./image/friends.svg">
-
-            <div class="header_nav_open">
+            <div id="header_nav_open">
               <span></span>
             </div>
-
-            <ul class="header_menu_containner">
-              <li class="header_menu_list">
-                <a href="#home">
-                  Home
-                </a>
-              </li>
-              <li class="header_menu_list">
-                <a href="#concept">
-                  Concept
-                </a>
-              </li>
-              <li class="header_menu_list">
-                <a href="#menu">
-                  Menu
-                </a>
-              </li>
-              <li class="header_menu_list">
-                <a href="#galley">
-                  Galley
-                </a>
-              </li>
-              <li class="header_menu_list">
-                <a href="#blog">
-                  Blog
-                </a>
-              </li>
-              <li class="header_menu_list">
-                <a href="#access">
-                  Access
-                </a>
-              </li>
-            </ul>
+      <nav id="header_navi">
+        <ul class="header_menu_containner">
+          <li class="header_menu_list">
+            <a href="#home">
+              Home
+            </a>
+          </li>
+          <li class="header_menu_list">
+            <a href="#concept">
+              Concept
+            </a>
+          </li>
+          <li class="header_menu_list">
+            <a href="#menu">
+              Menu
+            </a>
+          </li>
+          <li class="header_menu_list">
+            <a href="#galley">
+              Galley
+            </a>
+          </li>
+          <li class="header_menu_list">
+            <a href="#blog">
+              Blog
+            </a>
+          </li>
+          <li class="header_menu_list">
+            <a href="#access">
+              Access
+            </a>
+          </li>
+        </ul>
+      </nav>
           </div>
           <div class="header_slider_warp">
             <img src="./image/slide_img_01.jpg" alt="美容室" >
@@ -245,20 +244,18 @@
   </div>
   <script>
   //スマホメニュー
-
-  $(function(){
-    $('.header_nav_open').on('click',function(){
-      $(this).toggleClass('active');
-      $('.header_menu_containner').toggleClass('open');
-    });
-  });
 $(function(){
-  $('.header_menu_list').on('click',function(){
-    $('.header_menu_containner ').toggleClass('open');
-    $('.header_nav_open').toggleClass(' active');
+  $('#header_nav_open').on('click',function(){
+    $(this).toggleClass('active');
+    $('#header_navi').toggleClass('open');
   });
 });
-
+$(function(){
+  $('#header_navi a').on('click',function(){
+    $('#header_navi').toggleClass('open');
+    $('#header_nav_open').toggleClass('active');
+  })
+});
   //ヘッダースライダー
   $(function(){
     $('.header_slider_warp img:nth-child(n+2)').hide();
