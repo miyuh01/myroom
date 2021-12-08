@@ -358,16 +358,25 @@ justify-content: flex-end;
   display:none;
   background-color: rgba(254,246,232,0.6);
 }
+
+.header_logo{
+  position:fixed;
+  z-index: 999;
+}
   .header_menu{
     display:block;
+    height: 50px;
     margin:0 0;
     padding:10px 10px 0 10px;
     background-color:#FEF6E8;
     position:fixed;
+    top:0;
+      z-index: 998;
   }
 /*ハンバーガーメニュ-*/
 .header_menu_containner{
 justify-content: center;
+flex-wrap: wrap;
 }
  #header_nav_open{
   display:block;
@@ -420,10 +429,11 @@ justify-content: center;
                   rotate(90deg);
 }
 #header_navi.open{
+  height:auto;
   display:inline-block;
   z-index:998;
   position: fixed;
-  top:70px;
+  top:50px;
   left: 0px;
 }
 #header-navi.open:before {
