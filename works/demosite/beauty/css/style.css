@@ -13,17 +13,25 @@ body{
 }
 
 .warapper{
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .header{
   height:800px;
 }
-.header_nav.open{
-  display:none;
+
+.header_logo{
+    margin:10px 5px 0 5px;
+}
+#header_navi{
+  display:block;
+  width: 100%;
+  display: block;
+  position: absolute;
+  top:-70px;
+  right:100px;
 }
 .header_menu{
-  display:flex;
-  justify-content: space-evenly;
+  display:block;
   width:100%;
   margin:10px 30px 0 30px;
   position:relative;
@@ -31,6 +39,7 @@ body{
 }
 .header_menu_containner{
  display:flex;
+justify-content: flex-end;
  list-style-type: none;
 }
 .header_menu_list{
@@ -59,7 +68,7 @@ body{
 }
 .main{
   position: relative;
-  top:250px;
+  top:450px;
 }
 /*first_action*/
 #first_action{
@@ -343,7 +352,12 @@ body{
 
   }
 
-
+#header_navi{
+  width:100%;
+  height:50px;
+  display:none;
+  background-color: rgba(254,246,232,0.6);
+}
   .header_menu{
     display:block;
     margin:0 0;
@@ -353,9 +367,9 @@ body{
   }
 /*ハンバーガーメニュ-*/
 .header_menu_containner{
-  display:none;
+justify-content: center;
 }
- .header_nav_open{
+ #header_nav_open{
   display:block;
   width:30px;
   height:22px;
@@ -364,9 +378,9 @@ body{
   right:5px;
  }
 
-  .header_nav_open span,
-  .header_nav_open span::before,
-  .header_nav_open span::after{
+  #header_nav_open span,
+  #header_nav_open span::before,
+  #header_nav_open span::after{
     content:'';
     width:25px;
     height:3px;
@@ -377,55 +391,60 @@ body{
     vertical-align: middle;
     z-index:999;
   }
-.header_nav_open span::before{
+#header_nav_open span::before{
   bottom:-9px;
 }
-.header_nav_open span::after{
+#header_nav_open span::after{
   bottom:-16px;
 }
 
-.header_menu_containner{
+#header_menu_containner{
+  display:block;
+  position: fixed;
   padding-left:0;
+  z-index: 9999;
 }
 /*ハンバーガーメニュ-アニメーション*/
-.header_nav_open.active span{
+#header_nav_open.active span{
   transform: translateY(8px)
   rotate(-45deg);
 }
-.header_nav_open.active span::before {
+#header_nav_open.active span::before {
     transform: translateY(8px)
                rotate(45deg);
     opacity: 0;
 }
-.header_nav_open.active span::after {
+#header_nav_open.active span::after {
     bottom:-10px;
     transform: translateY(-12px)
                   rotate(90deg);
 }
-.header_menu_containner.open{
-  display:block;
+#header_navi.open{
+  display:inline-block;
   z-index:998;
- position: relative;
- left:-19%;
+  position: fixed;
+  top:70px;
+  left: 0px;
 }
-.header_menu_list.open{
-   width: 100%;
-   display: block;
-   text-align:left;
-   position: fixed;
-   height: 500px;
-   top: 38%;
-   padding-left:0;
-   transform: translate(-50%,-50%);
-   background-color: rgba(254,246,232,0.6);
+#header-navi.open:before {
+   content: '';
+   overflow: hidden;
+   -webkit-filter: blur(10px);
+   -moz-filter: blur(10px);
+   -o-filter: blur(10px);
+   -ms-filter: blur(10px);
+   filter: blur(10px);
+   z-index: -1;
+
 }
+
 .header_menu_list {
-    padding:0 5px;
+    padding:0 10px;
     display:inline-block;
     text-align:center;
     position: relative;
-    left: 20%;
-    top: 10%;
+    top: 10px;
+    transform: translate(-50%,-50%);
 }
 
 
