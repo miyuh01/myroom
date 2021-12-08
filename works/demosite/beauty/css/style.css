@@ -375,7 +375,7 @@ justify-content: flex-end;
   }
 /*ハンバーガーメニュ-*/
 .header_menu_containner{
-justify-content: center;
+justify-content:space-between;
 flex-wrap: wrap;
 }
  #header_nav_open{
