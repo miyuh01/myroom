@@ -848,6 +848,14 @@ width:100%;
   .service-ilst-image {
       height: 50px;
   }
+	
+	
+.location-list-image{
+  width:150px;
+  height:150px;
+}
+
+	
 /*info*/
   .info-contants-card-inner {
       width: 150px;
