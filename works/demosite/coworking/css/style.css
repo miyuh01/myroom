@@ -849,6 +849,11 @@ width:100%;
       height: 50px;
   }
 	
+.location-list-circle{
+  width:80px;
+  height:80px;
+ 
+}
 	
 .location-list-image{
   width:150px;
