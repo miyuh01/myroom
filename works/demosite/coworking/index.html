@@ -3,8 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/slick.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <title>コアワーキングサイト</title>
   </head>
   <body>
@@ -17,6 +23,10 @@
           class="header-logo-image" src="image/monjyu_logo.png" alt="">
         </h1>
       </div>
+      <div id="header-nav-open">
+        <span></span>
+      </div>
+
       <nav class="nav">
         <ul class="nav-menu">
           <li  class="nav-menu-list"><a class="nav-menu-list--stroke" href="#top">TOP</a></li>
@@ -141,8 +151,8 @@
        <h3 class="section-header center sub">
          全店舗共通
        </h3>
-       <table class="paln-container fade">
-         <tbody class="paln-container-inner">
+       <table class="plan-container fade">
+         <tbody class="plan-container-inner">
          <tr class="plan-item">
            <th class="plan-item-header">
              Hour
@@ -218,7 +228,7 @@
      <section id="location" class="location">
     <div class="location-inner">
        <h2 class="section-header left">LOCATION</h2>
-       <div class="location-list">
+       <div class="location-list slider">
          <div class="location-list-item">
            <div class="location-list-circle">
              <p class="location-list-circle-inner">
@@ -279,8 +289,7 @@
          <div class="info-contants-card">
         <div class="info-contants-card-inner">
           <span class="info-bage green">INFO</span>
-          <img  class="event-monjyu" src="image/banner.png" alt="インフォ">
-          
+           <img  class="event-monjyu" src="image/banner.png" alt="インフォ">
          </div>
           <div class="info-detail">
             <time  class="info-day" datetime="2021-3-01">2021.3.01</time>
@@ -340,7 +349,7 @@
        </div>
      </section>
     </div>
-    <footer>
+    <footer class="footer-top-margin">
       <p class="footer-copy">
        Monjyu All right service.
       </p>
@@ -358,5 +367,6 @@ https://qumeru.com/magazine/155
   <script src="js/anime.min.js"></script>
 <script src="js/main.js"></script>
 <script src="js/scrollMonitor.js"></script>
+  <script src="js/slick.js"></script>
   </body>
 </html>
