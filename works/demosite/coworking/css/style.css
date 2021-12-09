@@ -855,6 +855,12 @@ width:100%;
  
 }
 	
+.location-list-circle-inner{
+  font-size:12px;
+  left:50%;
+}	
+	
+	
 .location-list-image{
   width:200px;
   height:200px;
