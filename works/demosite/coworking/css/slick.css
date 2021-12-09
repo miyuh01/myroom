@@ -1,0 +1,21 @@
+.slick-initialized .slick-slide{
+  width:300px!important;
+  height:300px!important;
+}
+.slick-prev:before, .slick-next:before{
+  font-size: 50px!important;
+  position: relative;
+  color: #454545!important;
+}
+.slick-next{
+
+}
+.slick-prev,
+.slick-next
+{
+top:60%!important;
+z-index:3!important;
+}
+.slick-dotted.slick-slider {
+    width: 100%;
+    margin-bottom: 30px;
