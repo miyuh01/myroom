@@ -781,6 +781,10 @@ width:100%;
 
 /*480px~*/
 @media screen and (max-width:480px){
+
+  .header{
+    height:350px;
+  }
   .header-inner {
       width: 150px;
       height: 150px;
@@ -811,11 +815,14 @@ width:100%;
 .concept-caption-more{
   width:100%;
 }
+
 .concept-item-right {
-    width: 200px;
-    top: -230px;
-    left: 100px;
+    width: 140px;
+    position:absolute;
+    top: 60px;
+    left: 80px;
 }
+
 .style-container {
     display:block;
 }
