@@ -763,7 +763,7 @@ width:100%;
   .nav-menu-list--button{
     left:60px;
   }
-
+/*concept*/
   .concept {
      width:100%;
     display:block;
@@ -784,6 +784,24 @@ width:100%;
     width: 200px;
     top: -230px;
     left: 100px;
+}
+.style-container {
+    display:block;
+}
+.style-image {
+    width: 100%;
+}
+.style-container-item{
+  width:90%;
+}
+
+.style-container-item.right{
+  top:-50px;
+  right:-5px;
+}
+.style-container-item.left{
+  top:-50px;
+  left:55px;
 }
 /*service*/
   .service-item-list{
@@ -819,4 +837,3 @@ width:100%;
   }
 
 }
-
