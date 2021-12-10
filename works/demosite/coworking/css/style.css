@@ -740,17 +740,19 @@ width:100%;
 
 /*location*/
 
-.location-list-item {
-    margin-left: 5px;
-    margin-right: 0;
+.location-list-circle{
+  width: 80px;
+  height: 80px
+}
+.location-list-circle-inner{
+  font-size:16px;
+  left: 12%;
+}
+.location-list-image {
+    width: 200px;
+    height: 200px;
 }
 
-.slick-prev {
-    left: 25px!important;
-}
-.slick-next {
-    right:0!important;
-}
 /*info*/
 .info{
   width:100%
