@@ -67,8 +67,7 @@ justify-content: flex-end;
   position:absolute;
 }
 .main{
-  position: relative;
-  top:450px;
+  margin-top:400px;
 }
 /*first_action*/
 #first_action{
@@ -458,7 +457,9 @@ flex-wrap: wrap;
     transform: translate(-50%,-50%);
 }
 
-
+.main{
+  margin-top:600px;
+  }
 
 .concept_discription_p,
 .menu_discription_p
