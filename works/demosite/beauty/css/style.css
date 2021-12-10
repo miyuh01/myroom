@@ -204,7 +204,7 @@ justify-content: flex-end;
   display:block;
   position:relative;
   left:205px;
-  bottom:52px;
+  bottom:44px;
   z-index:2;
 }
 
@@ -340,9 +340,7 @@ justify-content: flex-end;
 .galley_contents_image {
     margin: 0 10px;
 }
-.galley_caption{
-  bottom:44px;
-}
+
 }
 /*タブレット768px*/
 @media screen and (max-width:768px){
