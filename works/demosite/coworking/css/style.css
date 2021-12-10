@@ -384,8 +384,8 @@ padding-top:0;
 .location-item-button{
   width:260px;
  position:relative;
- top:-50px;
- left:795px;
+ top: 20px;
+ left: 788px;
 display:block;
 
 }
@@ -820,7 +820,7 @@ width:100%;
     width: 140px;
     position:absolute;
     top: 60px;
-    left: 90px;
+    left: 80px;
 }
 
 .style-container {
@@ -848,24 +848,6 @@ width:100%;
   .service-ilst-image {
       height: 50px;
   }
-	
-.location-list-circle{
-  width:80px;
-  height:80px;
- 
-}
-	
-.location-list-circle-inner{
-  font-size:16px;
-}	
-	
-	
-.location-list-image{
-  width:200px;
-  height:200px;
-}
-
-	
 /*info*/
   .info-contants-card-inner {
       width: 150px;
