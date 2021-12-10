@@ -487,7 +487,7 @@ display:block;
 .footer-copy{
   font-size:24px;
   margin:0;
-  padding:150px;
+  padding:150px 0;
   background-color:#FFF9B1;
   text-align: center;
 }
@@ -773,8 +773,8 @@ width:100%;
 }
 
 /*footer*/
-.footer-top-margin{
-  margin-top:50px;
+.footer-copy {
+    padding: 50px 0;
 }
 }
 
