@@ -2,20 +2,27 @@
   width:300px!important;
   height:300px!important;
 }
-.slick-prev:before, .slick-next:before{
-  font-size: 50px!important;
-  position: relative;
-  color: #454545!important;
+
+.slick-prev{
+left:0!important;
 }
 .slick-next{
-
+ right:30px!important;
 }
 .slick-prev,
 .slick-next
 {
-top:60%!important;
+top:65%!important;
 z-index:3!important;
 }
-.slick-dotted.slick-slider {
-    width: 100%;
-    margin-bottom: 30px;
+    .slick-prev:before, .slick-next:before{
+      font-size: 50px!important;
+      position: relative;
+      color: #454545!important;
+    }
+
+    .slick-dotted.slick-slider {
+        width: 100%;
+        margin-bottom: 30px;
+
+    }
