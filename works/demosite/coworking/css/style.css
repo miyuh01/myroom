@@ -228,10 +228,11 @@ transition:0.3s;
   background-color:#F4F4F4;
 }
 .section-header{
-  font-size:36px;
-  padding-top:72px;
   margin-top:0;
   margin-bottom:15px;
+  padding-top:72px;
+  font-size:36px;
+  line-height: 1.2;
 }
 .center{
   margin: 0 5px 33px 5px;
@@ -649,7 +650,6 @@ z-index:999;
  margin-left:0px;
 }
 .main{
-  margin-top: 0;
   top:0;
 }
 /*コンセプト*/
@@ -821,13 +821,13 @@ width:100%;
     width: 140px;
     position:absolute;
     top: 60px;
-    left: 85px;
+    left: 100px;
 }
 
 /*stylesp*/
 .section-header{
-  font-size: 28px;
-  padding-top: 32px;
+font-size: 28px;
+padding-top: 32px;
 }
 .section-header.right{
   top: 0px;
@@ -855,13 +855,14 @@ width:100%;
   .service-item{
   font-size:16px;
   }
-	
   .service-item-list{
     width:100px;
   }
   .service-ilst-image {
       height: 50px;
   }
+
+
 
 
 /*info*/
