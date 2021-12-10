@@ -829,6 +829,11 @@ width:100%;
     left: 85px;
 }
 
+/*stylesp*/
+.section-header.right{
+  top: 0px;
+}	
+	
 .style-container {
     display:block;
 }
