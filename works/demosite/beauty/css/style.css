@@ -458,7 +458,7 @@ flex-wrap: wrap;
 }
 
 .main{
-  margin-top:300px;
+  margin-top:200px;
   }
 
 .concept_discription_p,
@@ -506,7 +506,7 @@ flex-wrap: wrap;
 }
 
 .main{
-  top:10px;
+  margin-top:10px;
 }
 
 #first_action::before{
