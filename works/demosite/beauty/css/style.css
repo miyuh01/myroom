@@ -13,7 +13,7 @@ body{
 }
 
 .warapper{
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .header{
   height:800px;
@@ -438,7 +438,6 @@ flex-wrap: wrap;
 }
 #header-navi.open:before {
    content: '';
-   overflow: hidden;
    -webkit-filter: blur(10px);
    -moz-filter: blur(10px);
    -o-filter: blur(10px);
