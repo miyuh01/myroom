@@ -739,6 +739,10 @@ width:100%;
 }
 
 /*location*/
+.location-inner{
+   width:95%;
+}
+
 
 .location-list-circle{
   width: 80px;
