@@ -32,15 +32,14 @@ overflow: hidden;
   margin-right:30px;
   background-color:#FFF9B1;
   box-sizing:border-box;
-  position:relative;
+  position:absolute;
   z-index:3;
 }
 .header-logo{
   margin:0 0;
-  position:relative;
+  position:absolute;
   top:30%;
-  left:10%;
-  right:10%;
+  left:15%;
 }
 .header-logo-image{
   width:80%;
