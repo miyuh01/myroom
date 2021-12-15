@@ -204,7 +204,7 @@ justify-content: flex-end;
   display:block;
   position:relative;
   left:205px;
-  bottom:44px;
+  bottom: 36px;
   z-index:2;
 }
 
@@ -560,9 +560,9 @@ flex-wrap: wrap;
   bottom:10px;
 }
 
-.galley_caption{
+/*.galley_caption{
   bottom:48px;
-}
+}*/
 
 
 .blog_group_contents {
