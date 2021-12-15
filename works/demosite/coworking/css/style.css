@@ -161,7 +161,7 @@ transition:0.3s;
   align-items: flex-start;
 }
 .style-image{
-  width:80%;
+  width:50%;
   height:500px;
 }
 .style-header{
@@ -201,7 +201,6 @@ transition:0.3s;
 .style-container-item.left{
   padding-left:20px;
   order:1;
-  z-index:2;
   left:100px;
 }
 .style-button{
