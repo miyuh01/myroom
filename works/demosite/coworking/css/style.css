@@ -715,7 +715,8 @@ width:100%;
    width:90%;
    display: grid;
  }
- .plan-container-inner{
+ .plan-container-inner{   
+   width:100%;	 
    display: inline-table;
  }
 
