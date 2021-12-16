@@ -401,8 +401,8 @@ display:block;
     color: #fff;
     background-color: #454545;
     position: absolute;
-    top: -10px;
-    left: 180px;
+    bottom:0px;
+    left: 200px;
 }
 
 .location-item-button-inner:hover{
