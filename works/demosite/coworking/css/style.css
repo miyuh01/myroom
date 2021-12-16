@@ -389,7 +389,8 @@ display:block;
   text-decoration:none;
   color:#000;
 }
-.location-item-button-after{
+.location-item-button::after{
+ 　　contant:'▷';
   font-size:30px;
   padding:10px 20px;
   color:#fff;
