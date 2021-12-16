@@ -473,9 +473,6 @@ flex-wrap: wrap;
  .menu_discription_p{
    line-height:2;
  }
-.galley_contents_image:nth-child(2){
-    margin: 0 10px;
-}
 
 .access_map{
   width:100%;
