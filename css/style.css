@@ -508,8 +508,16 @@ textarea{
 }
 
 @media screen and (max-width:480px){
+  
+  
+.header-contents-ichatch {
+    top: 445px;
   .works-contents-list{
     width:100%;
+  }
+  
+   .open{
+    height:100px;
   }
 
 /*skills*/
