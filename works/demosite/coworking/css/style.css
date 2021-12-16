@@ -159,7 +159,7 @@ transition:0.3s;
 
 /*style*/
 .style{
-	padding-bottom:75px;
+padding-bottom:75px;
 }
 .style-container{
   display:flex;
@@ -394,16 +394,15 @@ display:block;
   text-decoration:none;
   color:#000;
 }
-.location-item-button::after{
- 　　contant:'▷';
-  font-size:30px;
-  padding:10px 20px;
-  color:#fff;
-  background-color:#454545;
-  border:1px solid #454545;
-  position:relative;
-  bottom:40px;
-  left:210px;
+location-item-button::after {
+    content: '▶';
+    font-size: 30px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #454545;
+    position: relative;
+    bottom: 40px;
+    left: 100px;
 }
 
 .location-item-button-inner:hover{
