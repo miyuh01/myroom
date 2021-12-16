@@ -410,7 +410,7 @@ display:block;
   -webkit-text-stroke:1px #000;
   transition:0.3s;
 }
-.location-item-button:hover::after{
+.location-item-button-inner:hover::after{
   border:1px solid #454545;
   color:#000;
   -webkit-text-stroke:1px #454545;
