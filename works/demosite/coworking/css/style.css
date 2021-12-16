@@ -156,6 +156,11 @@ transition:0.3s;
    right:150px;
    z-index:99;
 }
+
+/*style*/
+.style{
+	padding-bottom:75px;
+}
 .style-container{
   display:flex;
   align-items: flex-start;
