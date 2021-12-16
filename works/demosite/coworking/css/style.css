@@ -389,12 +389,12 @@ display:block;
   text-decoration:none;
   color:#000;
 }
-.location-item-button::after{
-  content:'▶';
+.location-item-button-after{
   font-size:30px;
   padding:10px 20px;
   color:#fff;
   background-color:#454545;
+  border:1px solid #454545;
   position:relative;
   bottom:40px;
   left:210px;
