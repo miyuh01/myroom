@@ -190,6 +190,8 @@ justify-content: flex-end;
   width:300px;
   height: 400px;
   margin:0 90px;
+  text-align:center;
+  background-color:#ffffff;
   display: block;
   filter:drop-shadow(1px 1px 1px rgba(0 ,0,0,0.6));
   cursor:pointer;
@@ -203,20 +205,10 @@ justify-content: flex-end;
 .galley_caption{
   display:block;
   position:relative;
-  left:205px;
+  left:103px;
   bottom: 36px;
-  z-index:2;
 }
 
-.galley_contens_image_link{
-  width:230px;
-  padding:22px 35px;
-  margin:0  0;
-  background-color:#ffffff;
-  text-align: center;
-  position: relative;
-  bottom: 42px;
-}
 .galley_btn{
   color:#6B504F;
   text-decoration:none;
@@ -560,9 +552,6 @@ flex-wrap: wrap;
   bottom:10px;
 }
 
-/*.galley_caption{
-  bottom:48px;
-}*/
 
 
 .blog_group_contents {
