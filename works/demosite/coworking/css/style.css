@@ -400,9 +400,9 @@ display:block;
     padding: 10px 20px;
     color: #fff;
     background-color: #454545;
-    position: relative;
-    bottom: 40px;
-    left: 100px;
+    position: absolute;
+    top: -10px;
+    left: 180px;
 }
 
 .location-item-button-inner:hover{
